@@ -3,7 +3,7 @@
 //  Swift App
 //
 //  Created by joe_mac on 12/18/2016.
-//  Copyright © 2016 joe_mac. All rights reserved.
+//  Copyright © 2016 joe_mac. All rights reserved..
 //
 
 import UIKit
@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         tapCount += 1
         displayLabel.text = String(tapCount)
         
-        if tapCount >= 10 {
-            coolLabel.text = "You tapped the button 10 times!"
+        if tapCount >= 20 {
+            coolLabel.text = "You tapped the button 20 times!"
         }
     }
 
